@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>2018小游戏</title>
+<link rel="stylesheet" type="text/css" href="css/2048.css">
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>
+            <span style="color:#f59563">2</span>
+            <span style="color:#f67c5f">0</span>
+            <span style="color:#9c0">4</span>
+            <span style="color:#edcf72">8</span>
+        </h1>
+        <button onclick="gamestart()" id="newgamebutton">新游戏</button>
+        <div class="scores">
+            <p>最高分：<span id="bestScore"></span></p>
+            <p>分数:<span id="score">0</span></p>
+        </div>
+        
+    </header>
+    <div id="container">
+        <ul id="gameUl">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>              
+        </ul>
+    </div>
+    <div id="gameover">
+    	游戏结束
+    </div>
+    <script type="text/javascript" src="js/2048.js"></script>
+</body>
+</html>
